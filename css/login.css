@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+html
+{
+    font-size: 62.5%
+}
+
+body
+{
+    background-color: #FFF9E5;
+}
+
+.imgview
+{
+    padding: 234px 77px 373px 76px;
+}
+
+.chicken
+{
+    max-width: 237px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.title
+{
+    text-align: center;
+}
+
+.login-button
+{
+    margin-top: -10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-button-link
+{
+    margin: 0 auto;
+    width: 300px;
+    display: inline-block;
+    background-color: #FFA372;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 50px;
+}

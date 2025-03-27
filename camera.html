@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css"/>
+    <link rel="stylesheet" href="css/camera.css">
+    <title>Document</title>
+    <!-- head省略 -->
+    <script src="js/head.js" defer></script>
+    <!--CDNを読み込む-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/ajax.js"></script>    
+</head>
+<body>
+
+    <main>
+        <!--------------------- ここから記述 --------------------->
+
+        <!-- <div class="dammy"></div> -->
+
+        <section class="camera">
+            <!-- <dl>
+                <dt>カメラ起動</dt>
+                <dd>
+                    <div>
+                        <label for="form-image"><img src="images/camera.png" alt=""></label>
+                        <input type="file" id="form-image" capture="environment" accept="image/*">
+                        <span class="select-image">選択されていません</span>
+                    </div>
+                </dd>
+            </dl> -->
+
+            <div class="ar">
+                <a rel="ar" href="/assets/models/Scaniverse 2025-03-27 111246.usdz">
+                    <img src="/images/child.jpg">
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <section class="camera">
+                <dl>
+                    <dd>
+                        <div>
+                            <a href="edit.html"><label for="form-image"><img src="images/camera.png" alt=""></label></a>
+                            <input type="file" id="form-image" capture="environment" accept="image/*">
+                        </div>
+                        
+                    </dd>
+                </dl>
+            </section>
+        </footer>
+        <!--------------------- ここまで記述 --------------------->
+    </main>
+    
+</body>
+</html>

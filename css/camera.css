@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%
+}
+
+
+.dammy{
+    padding-top: 40px;
+    background-color: #FFF9E5;
+}
+/* img{
+    max-width: 40px;
+} */
+
+input[type="file"]{
+    display: none;
+}
+
+.ar{
+    padding-top: 50px;
+}
+
+footer{
+    background-color: #FFA372;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}

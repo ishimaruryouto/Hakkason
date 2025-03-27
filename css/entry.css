@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%
+}
+
+
+
+
+
+.registration-button
+{
+    margin-bottom: 100px;
+}
+
+.registration-button-link
+{
+    width: 300px;
+    display: inline-block;
+    background-color: #FFA372;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 50px;
+}
