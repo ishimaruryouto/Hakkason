@@ -21,15 +21,12 @@ body {
     p {
         color: #8F6E5A;
         font-size: 2rem;
-        /* margin-top: 5px; */
     }
 }
 
 .picture_wrap {
     display: grid;
     width: 95vw;
-    /* border: 1px solid tomato; */
-    /* padding: 5px; */
     margin: 0 auto;
     margin-top: 45px;
 
@@ -37,11 +34,9 @@ body {
         width: 115px;
         height: 150px;
         border-radius: 20px;
-        /* border: 1px solid skyblue; */
     }
 
     .picture {
-        /* padding: 5px; */
         position: relative;
         width: 115px;
         height: 150px;
